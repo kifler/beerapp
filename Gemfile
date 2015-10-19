@@ -41,3 +41,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production 
+
+# Gem for image transfer to DB
+gem 'carrierwave'
+
+#Gem for cloud services librbary (for adding to Amazon for images)
+gem 'fog'
+
+#Gem for security - avoid uploading sensitive info to github
+gem 'figaro'
