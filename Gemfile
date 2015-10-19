@@ -50,3 +50,6 @@ gem 'fog'
 
 #Gem for security - avoid uploading sensitive info to github
 gem 'figaro'
+
+#Gem for converting images
+gem 'mini_magick'
