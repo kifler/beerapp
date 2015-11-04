@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :restaurants
 
   get 'pages/about'
 
   get 'pages/contact'
 
+# Define default (root) page
   root 'restaurants#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

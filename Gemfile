@@ -53,3 +53,5 @@ gem 'figaro'
 #Gem for converting images
 gem 'mini_magick'
 
+#Gem for authenticating and adding multiple users
+gem 'devise'
